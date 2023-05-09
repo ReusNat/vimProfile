@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cp .vimrc ~/.vimrc
+cp vimrc ~/.vimrc
+cp vimrc.html ~/.vimrc.html
 if [ -e ~/.vim ] ; then
     cp html.vim ~/.vim/indent/html.vim
 else
